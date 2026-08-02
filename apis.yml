@@ -1,7 +1,26 @@
 aid: yespath
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yespath.png
 name: YesPath
-description: YesPath is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  YesPath was an account engagement platform based in San Francisco that helped B2B sales
+  and marketing teams reach and win large target accounts, using machine learning to surface
+  real-time recommendations on the right content and next best action for each account. The
+  company was acquired by Medium in April 2017 and no longer operates as an independent product;
+  the yespath.com domain still resolves to AWS IP addresses but serves no live web application.
+  This profile was surfaced as a portfolio company of Bloomberg Beta and added to the API
+  Evangelist network as a stub. Enrichment found no live developer, API, or documentation
+  surface to harvest — the entry is retained for portfolio-graph completeness.
 url: https://raw.githubusercontent.com/api-evangelist/yespath/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,28 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired by Medium in April 2017; no live product or API surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Account Engagement
+- Sales
+- Marketing
+- Machine Learning
+- B2B
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
